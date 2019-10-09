@@ -1,0 +1,23 @@
+{
+  "name": "markten-cmp",
+  "version": "1.0.0",
+  "description": "Schoolproject koekoek",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoycePoppe/Markten.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoycePoppe/Markten/issues"
+  },
+  "homepage": "https://github.com/JoycePoppe/Markten#readme",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1"
+  }
+}
