@@ -1,0 +1,44 @@
+* {margin: 0; padding: 0;}
+#mapje {
+  width: 80vw;
+  height: 80vh;
+	margin: 0em auto;
+}
+
+
+.titel h1{
+  padding: 20px;
+    margin-top: 20px;
+    font-family: "facto";
+    font-weight: bold;
+    color: #e60005;
+}
+
+.campussen{
+  font-family: "facto";
+  font-size: 0.8rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  line-height: 20px;
+  padding: 20px;
+}
+
+
+
+header nav {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+background-color: #e60005;
+padding: 20px;
+}
+
+
+nav a{
+  font-family: "facto";
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
