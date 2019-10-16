@@ -9,13 +9,13 @@
 .titel h1{
   padding: 20px;
     margin-top: 20px;
-    font-family: "facto";
+    font-family: "helvetica";
     font-weight: bold;
     color: #e60005;
 }
 
 .campussen{
-  font-family: "facto";
+  font-family: "helvetica";
   font-size: 0.8rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -36,7 +36,7 @@ padding: 20px;
 
 
 nav a{
-  font-family: "facto";
+  font-family: "helvetica";
   font-size: 1rem;
   text-decoration: none;
   color: white;
