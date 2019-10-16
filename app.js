@@ -23,13 +23,16 @@ app.get('/', function(req, res){
     });
 
 
-app.get('/Contact', function (req, res) {
-  res.render('Contact');
+app.get('/filter', function (req, res) {
+  res.render('filter');
     });
 
     app.get('/home', function (req, res) {
       res.render('home');
     });
+
+
 });
+
 
 app.listen(port);

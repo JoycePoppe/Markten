@@ -1,13 +1,13 @@
-var mymap = L.map('mapje').setView([51.505, -0.09], 13);
+var mymap = L.map('mapje').setView([51.212163, 4.415377], 13);
 
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-    maxZoom: 18,
+    maxZoom: 16,
     id: 'mapbox.streets'
 }).addTo(mymap);
 
-var circle = L.circle([51.508, -0.11], {
+var circle = L.circle([51.212163, 4.415377], {
 	color: 'red',
 	fillColor: '#f03',
 	fillOpacity: 0.5,
@@ -22,5 +22,5 @@ var polygon = L.polygon([
 
 
 
-mymap.fitWorld();
+//mymap.fitWorld();
 //mymap.locate({setView: true, maxZoom: 16});
