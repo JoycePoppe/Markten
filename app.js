@@ -1,9 +1,15 @@
 const express = require('express');
 const request = require('request');
+let port = proccess.env.PORT;
+if (port == null || port == "") {
+  port = 3000;
+}
+
+
+
 const app = express();
 
 const path = require('path');
-const port = 3000;
 
 
 
