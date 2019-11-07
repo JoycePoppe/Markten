@@ -22,17 +22,17 @@ app.get('/', function(req, res){
   res.render('main', {
         campussen: ap.campussen
     });
+});
 
-
+var data;
 app.get('/filter', function (req, res) {
   res.render('filter');
-    });
+});
 
-    app.get('/home', function (req, res) {
-      res.render('home');
-    });
-
-
+app.get('/home', function (req, res) {
+  res.render('home',{
+    naam_frontend: data
+  });
 });
 
 
@@ -40,9 +40,11 @@ app.listen(port);
 
 request('https://geodata.antwerpen.be/arcgissql/rest/services/P_Portal/portal_publiek3/MapServer/202/query?where=1%3D1&outFields=*&outSR=4326&f=json',
   function(error, response, body){
-    var data = JSON.parse(body);
+    data = JSON.parse(body);
+    data = data.features;
+    console.log(data);
 
-    for(var i=0; i < data.features.length; i++) {
+    /*for(var i=0; i < data.features.length; i++) {
         console.log("naam: " + data.features[i].attributes.soort);
         console.log("naam: " + data.features[i].attributes.locatie);
         console.log("naam: " + data.features[i].attributes.marktdag1);
@@ -50,9 +52,9 @@ request('https://geodata.antwerpen.be/arcgissql/rest/services/P_Portal/portal_pu
         console.log("naam: " + data.features[i].attributes.van);
         console.log("naam: " + data.features[i].attributes.tot);
         console.log("naam: " + data.features[i].attributes.district);
-          
+
         console.log("coord: " + data.features[i].geometry.x + ", " + data.features[i].geometry.y);
         console.log("");
-    }
+    }*/
 }
 );
