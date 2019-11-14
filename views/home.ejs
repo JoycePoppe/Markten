@@ -4,11 +4,11 @@
 <h1>LIJST</h1>
 </div>
 
+<ul>
 <% for(var i=0; i < naam_frontend.length; i++){ %>
-  <div class="<%- naam_frontend[i].attributes.niveau %>"><%- naam_frontend[i].attributes.locatie %>
-  </div>
+  <li><a href="/detail/<%=i%>" class="<%- naam_frontend[i].attributes.niveau %>"><%- naam_frontend[i].attributes.locatie %></a></li>
 <% }%>
-
+<ul>
 
 
 <% include footer %>

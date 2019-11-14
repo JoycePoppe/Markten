@@ -41,6 +41,12 @@ app.get('/home', function (req, res) {
   });
 });
 
+app.get('/detail/:id', function (req, res) {
+  res.render('detail',{
+    markt: data[req.params.id]
+  });
+});
+
 
 app.listen(port);
 
