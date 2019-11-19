@@ -31,8 +31,8 @@ app.get('/', function(req, res){
 });
 
 var data
-app.get('/filter', function (req, res) {
-  res.render('filter');
+app.get('/contact', function (req, res) {
+  res.render('contact');
 });
 
 app.get('/home', function (req, res) {
