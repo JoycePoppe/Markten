@@ -30,7 +30,7 @@ html{
 
 .detail{
   margin-left: 50px;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 header nav {
@@ -43,8 +43,7 @@ padding: 20px;
 
 a{
   color: black;
-  text-decoration: none;
-  line-height: 10px;
+  line-height: 15;
   margin-left: 100px;
 }
 
@@ -60,7 +59,6 @@ nav a{
 }
 
 footer{
-  margin-top: 30px;
   text-align: center;
-  margin-bottom: 10px;
+  padding: 100px
 }
