@@ -43,7 +43,7 @@ var marker25 = L.marker([51.218629, 4.396230], {icon: icon}).addTo(mymap); // SI
 mymap.locate({setView: true, maxZoom: 16});
 
 function onLocationFound(e) {
-    var radius = e.accuracy / 1;
+    var radius = e.accuracy / 2;
 
     L.marker(e.latlng).addTo(mymap)
         .bindPopup(<br>"Jij bent hier."</br> " Binnen de " + radius + " meter van dit punt").openPopup();
