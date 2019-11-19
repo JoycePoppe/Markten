@@ -25,7 +25,7 @@
 }
 
 .detail{
-  margin: auto;
+  text-align: center;
 }
 
 header nav {
@@ -36,6 +36,13 @@ background-color: #e60005;
 padding: 20px;
 }
 
+li{
+  color: black;
+  text-decoration: none;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 10px;
+}
 
 nav a{
   font-family: "helvetica";
