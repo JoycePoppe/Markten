@@ -30,6 +30,7 @@ app.get('/', function(req, res){
     });
 });
 
+var data
 app.get('/filter', function (req, res) {
   res.render('filter');
 });
