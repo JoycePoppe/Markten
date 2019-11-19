@@ -30,7 +30,6 @@ app.get('/', function(req, res){
     });
 });
 
-var data;
 app.get('/contact', function (req, res) {
   res.render('contact');
 });
