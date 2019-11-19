@@ -24,7 +24,9 @@
   padding: 20px;
 }
 
-
+.detail{
+  margin: auto;
+}
 
 header nav {
 display: flex;
