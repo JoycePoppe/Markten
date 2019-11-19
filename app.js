@@ -32,7 +32,9 @@ app.get('/', function(req, res){
 
 var data
 app.get('/contact', function (req, res) {
-  res.render('contact');
+  res.render('contact',{
+    naam_frontend: data
+  });
 });
 
 app.get('/home', function (req, res) {
