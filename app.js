@@ -26,7 +26,7 @@ const ap = require('./data/ap.json');
 
 app.get('/', function(req, res){
   res.render('main', {
-        campussen: ap.campussen
+        markten: markt.markten
     });
 });
 
