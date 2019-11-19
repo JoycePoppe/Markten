@@ -30,8 +30,8 @@ app.get('/', function(req, res){
     });
 });
 
-app.get('/contact', function (req, res) {
-  res.render('contact');
+app.get('/filter', function (req, res) {
+  res.render('filter');
 });
 
 app.get('/home', function (req, res) {
