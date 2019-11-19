@@ -46,7 +46,7 @@ function onLocationFound(e) {
     var radius = e.accuracy / 2;
 
     L.marker(e.latlng).addTo(mymap)
-        .bindPopup(<br>"Jij bent hier."</br> " Binnen de " + radius + " meter van dit punt").openPopup();
+        .bindPopup("Jij bent hier. Binnen de " + radius + " meter van dit punt").openPopup();
 
     L.circle(e.latlng, radius).addTo(mymap);
 }
