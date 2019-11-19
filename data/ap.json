@@ -1,0 +1,125 @@
+{
+  "campussen": [
+    {
+      "name": "Meistraat",
+      "street": "Meistraat",
+      "number": 5,
+      "postal": 2000,
+      "city": "Antwerpen",
+      "telephone": "+32 3 220 57 97",
+      "email": "mc@ap.be",
+      "geolocation": ["51.215860","4.410800"],
+      "department": "Management & Communicatie"
+    },
+    {
+      "name": "Lange Nieuwstraat",
+      "street": "Lange Nieuwstraat",
+      "number": 101,
+      "postal": 2000,
+      "city": "Antwerpen",
+      "telephone": "+32 3 220 54 00",
+      "email": "info@ap.be",
+      "geolocation": ["51.219550","4.412020"],
+      "department": ""
+    },
+    {
+      "name": "Spoor Noord - Noorderplaats",
+      "street": "Noorderplaats",
+      "number": 2,
+      "postal": 2000,
+      "city": "Antwerpen",
+      "telephone": "+32 3 220 55 00",
+      "email": "onthaal.noo@ap.be",
+      "geolocation": ["51.229561","4.413440"],
+      "department": "Onderwijs & Training / Gezondheid & Welzijn"
+    },
+    {
+      "name": "Kronenburg",
+      "street": "Kronenburgstraat",
+      "number": 47,
+      "postal": 2000,
+      "city": "Antwerpen",
+      "telephone": "+32 3 220 55 80",
+      "email": "onthaal.kro@ap.be",
+      "geolocation": ["51.212070","4.400010"],
+      "department": "Wetenschappen & Techniek"
+    },
+    {
+      "name": "Spoor Noord - Ellermanstraat",
+      "street": "Ellermanstraat",
+      "number": 33,
+      "postal": 2060,
+      "city": "Antwerpen",
+      "telephone": "+32 3 220 33 00",
+      "email": "onthaal.ell@ap.be",
+      "geolocation": ["51.230410","4.416810"],
+      "department": "Wetenschappen & Techniek"
+    },
+    {
+      "name": "deSingel",
+      "street": "Desguinlei",
+      "number": 25,
+      "postal": 2018,
+      "city": "Antwerpen",
+      "telephone": "+32 3 244 18 00",
+      "email": "conservatorium@ap.be",
+      "geolocation": ["51.193050","4.403710"],
+      "department": "Koninklijk Conservatorium"
+    },
+    {
+      "name": "Mutsaard",
+      "street": "Mutsaardstraat",
+      "number": 31,
+      "postal": 2000,
+      "city": "Antwerpen",
+      "telephone": "+32 3 213 71 00",
+      "email": "academie@ap.be",
+      "geolocation": ["51.223090","4.407130"],
+      "department": "Koninklijke Academie Voor Schone Kunsten"
+    },
+    {
+      "name": "Keizerstraat",
+      "street": "Keizerstraat",
+      "number": 14,
+      "postal": 2000,
+      "city": "Antwerpen",
+      "telephone": "+32 3 213 71 00",
+      "email": "academie@ap.be",
+      "geolocation": ["51.221610","4.406450"],
+      "department": "Koninklijke Academie Voor Schone Kunsten"
+    },
+    {
+      "name": "Zuid",
+      "street": "Coquilhatstraat",
+      "number": 16,
+      "postal": 2000,
+      "city": "Antwerpen",
+      "telephone": "+32 470 20 23 53",
+      "email": "academie@ap.be",
+      "geolocation": ["51.209130","4.397660"],
+      "department": "Koninklijke Academie Voor Schone Kunsten"
+    },
+    {
+      "name": "Dodoens",
+      "street": "Leopoldstraat",
+      "number": 42,
+      "postal": 2800,
+      "city": "Mechelen",
+      "telephone": "+32 15 41 30 45",
+      "email": "info@cvo-crescendo.be",
+      "geolocation": ["51.018929","4.478530"],
+      "department": "Graduaat"
+    },
+    {
+      "name": "Blairon",
+      "street": "Steenweg op Gierle",
+      "number": 100,
+      "postal": 2300,
+      "city": "Turnhout",
+      "telephone": "+32 14 40 01 00",
+      "email": "informatie@horito.be",
+      "geolocation": ["51.315731","4.930890"],
+      "department": "Graduaat"
+    }
+  ]
+}
