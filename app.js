@@ -26,7 +26,7 @@ const ap = require('./data/markt.json');
 
 app.get('/', function(req, res){
   res.render('main', {
-        markten: markt.markten
+        markten: ap.markten
     });
 });
 
