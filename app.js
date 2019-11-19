@@ -20,13 +20,13 @@ app.set('view engine', 'ejs');
 app.set('views', path.resolve(__dirname, 'views'));
 
 //json inladen in applicatie
-const ap = require('./data/markt.json');
+const ap = require('./data/ap.json');
 
 
 
 app.get('/', function(req, res){
   res.render('main', {
-        markten: ap.markten
+        campussen: ap.campussen
     });
 });
 
