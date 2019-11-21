@@ -1,3 +1,5 @@
+// Wegens de filter gebruiken we voor deze content niet de databanks
+
 var mymap = L.map('mapje').setView([51.212163, 4.415377], 13);
 
 

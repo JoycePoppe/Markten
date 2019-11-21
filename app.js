@@ -19,15 +19,10 @@ app.use(express.static('public'));
 app.set('view engine', 'ejs');
 app.set('views', path.resolve(__dirname, 'views'));
 
-//json inladen in applicatie
-const ap = require('./data/ap.json');
-
 
 
 app.get('/', function(req, res){
-  res.render('main', {
-        campussen: ap.campussen
-    });
+  res.render('map');
 });
 
 var data
@@ -37,8 +32,8 @@ app.get('/contact', function (req, res) {
   });
 });
 
-app.get('/home', function (req, res) {
-  res.render('home',{
+app.get('/lijst', function (req, res) {
+  res.render('lijst',{
     naam_frontend: data
   });
 });
