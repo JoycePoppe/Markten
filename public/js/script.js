@@ -9,7 +9,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 
 var icon = L.icon({
-    iconUrl: '/img/plaats.png',
+    iconUrl: '/img/marker.png',
     iconSize:     [50, 40]
 
 });
@@ -78,53 +78,53 @@ var overlayMaps = {
 marker1.addTo(mymap);
 marker1.bindPopup("<b>A-MERT!</b><br>Sint-Jansplein</br><b>Woensdag en vrijdag</br><b>06:00 - 15:00</br>");
 marker2.addTo(mymap);
-marker2.bindPopup("<b>Hallo!</b><br>Dit is het Arenaplein");
+marker2.bindPopup("<b>A-MERT!</b><br>Dit is het Arenaplein<b>Maandag</br><b>06:00 - 15:00</br>");
 marker3.addTo(mymap);
-marker3.bindPopup("<b>Hallo!</b><br>Dit is het F. Van Eedenplein");
+marker3.bindPopup("<b>A-MERT!</b><br>Dit is het F. Van Eedenplein<b>Donderdag</br><b>06:00 - 15:00</br>");
 marker4.addTo(mymap);
-marker4.bindPopup("<b>Hallo!</b><br>Dit is het Franciscusplein");
+marker4.bindPopup("<b>A-MERT!</b><br>Dit is het Franciscusplein<b>Dinsdag</br><b>06:00 - 15:00</br>");
 marker5.addTo(mymap);
-marker5.bindPopup("<b>Hallo!</b><br>Dit is het Kristus-Koningplein");
+marker5.bindPopup("<b>A-MERT!</b><br>Dit is het Kristus-Koningplein<b>Woensdag</br><b>06:00 - 15:00</br>");
 marker6.addTo(mymap);
-marker6.bindPopup("<b>Hallo!</b><br>Dit is de Desguinlei");
+marker6.bindPopup("<b>A-MERT!</b><br>Dit is de Desguinlei<b>Vrijdag</br><b>06:00 - 15:00</br>");
 marker7.addTo(mymap);
-marker7.bindPopup("<b>Hallo!</b><br>Dit is de Santtiagostraat");
+marker7.bindPopup("<b>A-MERT!</b><br>Dit is de Santtiagostraat<b>Donderdag</br><b>06:00 - 15:00</br>");
 marker8.addTo(mymap);
-marker8.bindPopup("<b>Hallo!</b><br>Dit is het Falconplein");
+marker8.bindPopup("<b>A-MERT!</b><br>Dit is het Falconplein<b>Zondag</br><b>06:00 - 15:00</br>");
 marker9.addTo(mymap);
-marker9.bindPopup("<b>Hallo!</b><br>Dit is de Grote Markt");
+marker9.bindPopup("<b>A-MERT!</b><br>Dit is de Grote Markt<b>Woensdag</br><b>06:00 - 15:00</br>");
 marker10.addTo(mymap);
-marker10.bindPopup("<b>Hallo!</b><br>Dit is het Wim Saerensplein");
+marker10.bindPopup("<b>A-MERT!</b><br>Dit is het Wim Saerensplein<b>Zaterdag</br><b>06:00 - 15:00</br>");
 marker11.addTo(mymap);
-marker11.bindPopup("<b>Hallo!</b><br>Dit is het Rooiplein");
+marker11.bindPopup("<b>A-MERT!</b><br>Dit is het Rooiplein<b>Dinsdag</br><b>06:00 - 15:00</br>");
 marker12.addTo(mymap);
-marker12.bindPopup("<b>Hallo!</b><br>Dit is de Dageraadplaats");
+marker12.bindPopup("<b>A-MERT!</b><br>Dit is de Dageraadplaats<b>Woensdag en vrijdag</br><b>06:00 - 15:00</br>");
 marker13.addTo(mymap);
-marker13.bindPopup("<b>Hallo!</b><br>Dit is het Blauwtorenplein & Oudevaartplaats");
+marker13.bindPopup("<b>A-MERT!</b><br>Dit is het Blauwtorenplein & Oudevaartplaats<b>Woensdag en vrijdag</br><b>06:00 - 15:00</br>");
 marker14.addTo(mymap);
-marker14.bindPopup("<b>Hallo!</b><br>Dit is de Lijnwaadmarkt");
+marker14.bindPopup("<b>A-MERT!</b><br>Dit is de Lijnwaadmarkt<b>Woensdag en vrijdag</br><b>06:00 - 15:00</br>");
 marker15.addTo(mymap);
-marker15.bindPopup("<b>Hallo!</b><br>Dit is de Botermarkt");
+marker15.bindPopup("<b>A-MERT!</b><br>Dit is de Botermarkt<b>Woensdag en vrijdag</br><b>06:00 - 15:00</br>");
 marker16.addTo(mymap);
-marker16.bindPopup("<b>Hallo!</b><br>Dit is het Laar");
+marker16.bindPopup("<b>A-MERT!</b><br>Dit is het Laar<b>Woensdag en vrijdag</br><b>06:00 - 15:00</br>");
 marker17.addTo(mymap);
-marker17.bindPopup("<b>Hallo!</b><br>Dit is de Lakborslei");
+marker17.bindPopup("<b>A-MERT!</b><br>Dit is de Lakborslei<b>Woensdag en vrijdag</br><b>06:00 - 15:00</br>");
 marker18.addTo(mymap);
-marker18.bindPopup("<b>Hallo!</b><br>Dit is de Kioskplaats");
+marker18.bindPopup("<b>A-MERT!</b><br>Dit is de Kioskplaats<b>Woensdag en vrijdag</br><b>06:00 - 15:00</br>");
 marker19.addTo(mymap);
-marker19.bindPopup("<b>Hallo!</b><br>Dit is het Bist");
+marker19.bindPopup("<b>A-MERT!</b><br>Dit is het Bist<b>Woensdag en vrijdag</br><b>06:00 - 15:00</br>");
 marker20.addTo(mymap);
-marker20.bindPopup("<b>Hallo!</b><br>Dit is De Villegasstraat");
+marker20.bindPopup("<b>A-MERT!</b><br>Dit is De Villegasstraat<b>Woensdag en vrijdag</br><b>06:00 - 15:00</br>");
 marker21.addTo(mymap);
-marker21.bindPopup("<b>Hallo!</b><br>Dit is de Gitschotellei");
+marker21.bindPopup("<b>A-MERT!</b><br>Dit is de Gitschotellei<b>Woensdag en vrijdag</br><b>06:00 - 15:00</br>");
 marker22.addTo(mymap);
-marker22.bindPopup("<b>Hallo!</b><br>Dit is de Zillebekelaan");
+marker22.bindPopup("<b>A-MERT!</b><br>Dit is de Zillebekelaan<b>Woensdag en vrijdag</br><b>06:00 - 15:00</br>");
 marker23.addTo(mymap);
-marker23.bindPopup("<b>Hallo!</b><br>Dit is de Napoleonkaai");
+marker23.bindPopup("<b>A-MERT!</b><br>Dit is de Napoleonkaai<b>Woensdag en vrijdag</br><b>06:00 - 15:00</br>");
 marker24.addTo(mymap);
-marker24.bindPopup("<b>Hallo!</b><br>Dit is het Michel Willemsplein");
+marker24.bindPopup("<b>A-MERT!</b><br>Dit is het Michel Willemsplein<b>Woensdag en vrijdag</br><b>06:00 - 15:00</br>");
 marker25.addTo(mymap);
-marker25.bindPopup("<b>Hallo!</b><br>Dit is het Sint-Jansvliet");
+marker25.bindPopup("<b>A-MERT!</b><br>Dit is het Sint-Jansvliet<b>Woensdag en vrijdag</br><b>06:00 - 15:00</br>");
 
 
 L.control.layers('', overlayMaps).addTo(mymap);
