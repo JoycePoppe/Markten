@@ -9,6 +9,14 @@ html{
   font-family: "helvetica";
 }
 
+p{
+  font-family: "helvetica";
+}
+
+.midden{
+  margin-left: 30px;
+  margin-top: 30px;
+}
 
 .titel h1{
   padding: 20px;
