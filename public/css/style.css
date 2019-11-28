@@ -42,8 +42,9 @@ border-radius: 5px 5px 0px 0px;
 }
 
 footer{
-  position: relative;
+  position: fixed;
   bottom: 0;
+  width: 100vw;
 }
 
 a{
