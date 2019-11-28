@@ -81,6 +81,7 @@ var overlayMaps = {
 };
 
 
+
 marker1.addTo(mymap);
 marker1.bindPopup("<b>A-MERT!</b><br>Sint-Jansplein</br><b>Woensdag en vrijdag</br><b>06:00 - 15:00</br>");
 marker2.addTo(mymap);
