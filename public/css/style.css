@@ -1,8 +1,7 @@
-* {margin: 0; padding: 0;}
 #mapje {
-  width: 80vw;
-  height: 80vh;
-	margin: 0em auto;
+  width: 100vw;
+  height: 92vh;
+
 }
 
 html{
@@ -18,12 +17,11 @@ p{
   margin-top: 30px;
 }
 
-.titel h1{
-  padding: 20px;
-    margin-top: 20px;
+.titel{
     font-family: "helvetica";
     font-weight: bold;
     color: #e60005;
+    font-variant: small-caps;
 }
 
 .detail{
@@ -31,12 +29,19 @@ p{
   margin-top: 50px;
 }
 
-header nav {
+footer nav {
 display: flex;
 flex-direction: row;
 justify-content: space-around;
 background-color: #e60005;
-padding: 20px;
+height: 10vh;
+padding: 30px;
+box-sizing: border-box;
+}
+
+footer{
+  position: relative;
+  bottom: 0;
 }
 
 a{
