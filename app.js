@@ -6,11 +6,9 @@ if (port == null || port == "") {
 }
 
 
-
 const app = express();
 
 const path = require('path');
-
 
 
 //publieke map definiëren
@@ -18,7 +16,6 @@ app.use(express.static('public'));
 //ejs instellen als templating engine
 app.set('view engine', 'ejs');
 app.set('views', path.resolve(__dirname, 'views'));
-
 
 
 app.get('/', function(req, res){

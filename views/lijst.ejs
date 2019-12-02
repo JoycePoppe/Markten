@@ -1,10 +1,9 @@
 <% include header %>
 <div class="midden">
-<ul>
-<% for(var i=0; i < naam_frontend.length; i++){ %>
-  <li><a href="/detail/<%=i%>" class="<%- naam_frontend[i].attributes.niveau %>"><%- naam_frontend[i].attributes.locatie %></a></li>
-<% }%>
-<ul>
+  <ul>
+  <% for(var i=0; i < naam_frontend.length; i++){ %>
+    <li><a href="/detail/<%=i%>" class="<%- naam_frontend[i].attributes.niveau %>"><%- naam_frontend[i].attributes.locatie %></a></li>
+  <% }%>
+  <ul>
 </div>
-
 <% include footer %>
