@@ -10,7 +10,9 @@
       <li><%=markt.attributes.soort %></li>
       <li class="vet"> Marktdag(en) </li>
       <li><%=markt.attributes.marktdag1 %></li>
-      <li><%=markt.attributes.marktdag2 %></li> //if "geen" dan display none
+      <% if (markt.attributes.marktdag2 != "geen") {%>
+      <li><%=markt.attributes.marktdag2 %></li>
+      <% } %>
       <li class="vet"> Markt van - tot </li>
       <li><%=markt.attributes.van %> - <%=markt.attributes.tot %></li>
     </ul>
