@@ -11,17 +11,22 @@
 }
 
 img{
-  position: fixed;
+  position: relative;
   top:20px;
   width: 90vw;
   height: 35vh;
-  left: 20px
+  left: 20px;
+  bottom: 0;
 }
 
+.onderfoto h1{
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 33px;
+  text-align: center;
+}
 .onderfoto{
-  font-family: "helvetica";
-  margin-left: 30px;
-  margin-top: 330px;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
 }
 
 .slogan{
@@ -29,17 +34,101 @@ img{
   font-variant: small-caps;
   font-size: 40px;
   margin-bottom: 10px;
+
 }
 
 .midden{
-  font-family: "helvetica";
-  margin-left: 30px;
-  margin-top: 30px;
+  font-family: 'Quicksand', sans-serif;
+  margin-bottom: 20px;
   line-height: 1.5;
+  text-align: center;
+  width: 95%;
+  max-height: 92vh;
+  overflow: scroll;
+  margin-left: 2.5%;
+}
+
+
+.midden a{
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  margin-bottom: 15px;
+  line-height: 3.2;
+  opacity: 0.5;
+  box-shadow: 3px 3px 3px 0px #888888;
+  background-color: #F8E8E8;
+  border-radius: 8px;
+}
+.midden a:hover{
+    opacity: 1;
+
+}
+form {
+    background-color: rgba(255,255,255,0.25);
+    border: 1px solid black;
+    width: 100%;
+    margin: 50px auto;
+    padding: 45px;
+    border-radius: 6px;
+    text-align: center;
+}
+.formulier h1{
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+  font-size: 1.3em;
+  padding-top: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+}
+.formulier label {
+    margin: 10px 0;
+    font-family: 'Quicksand', sans-serif;
+    display: block;
+    color: black;
+    font-size: 0.9em;
+}
+
+.formulier input[type="text"], input[type="email"], input[type="password"]   {
+font-family: 'Quicksand', sans-serif;
+    font-size: 1.2em;
+    width: 242px;
+    color: #333;
+    padding: 5px;
+    padding-left: 5px;
+    border-radius: 6px;
+    background-color: rgba(255,255,255,0.7);
+
+}
+
+.formulier input[type="submit"]  {
+  font-family: 'Quicksand', sans-serif;
+    font-size: 1.1em;
+    width: 60%;
+    background-color: black;
+    padding: 8px 5px;
+    margin-top: 20px;
+    display: block;
+    border-radius: 6px;
+    color: white;
+    margin-bottom: 70px;
+    margin-left: 20%;
+}
+
+.formulier select {
+    width: 100%;
+    background: white;
+    font-size: 1.2em;
+    color: #333;
+    height: 35px;
+    background-color: rgba(255,255,255,0.7);
+    text-align: center;
 }
 
 .vet{
-  font-weight: bold;
+  font-weight: bolder;
+  font-size: 1.2em;
   margin-top: 20px;
   margin-bottom: 10px;
 }
@@ -56,13 +145,13 @@ flex-direction: row;
 justify-content: space-around;
 background-color: #e60005;
 height: 8vh;
-padding: 30px;
+padding-top: 20px;
 box-sizing: border-box;
 border-radius: 5px 5px 0px 0px;
 }
 
 .titel{
-    font-family: "helvetica";
+    font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     color: #e60005;
     font-variant: small-caps;
@@ -74,9 +163,6 @@ nav a{
   color: white;
   font-weight: bold;
 }
-
-
-
 
 a{
   color: black;
