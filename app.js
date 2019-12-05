@@ -19,25 +19,31 @@ app.set('views', path.resolve(__dirname, 'views'));
 
 
 app.get('/', function(req, res){
-  res.render('map');
+  res.render('map',{
+    active: "map"
+  });
+
 });
 
 var data
 app.get('/contact', function (req, res) {
   res.render('contact',{
-    naam_frontend: data
+    naam_frontend: data,
+    active: "contact"
   });
 });
 
 app.get('/lijst', function (req, res) {
   res.render('lijst',{
-    naam_frontend: data
+    naam_frontend: data,
+    active: "lijst"
   });
 });
 
 app.get('/detail/:id', function (req, res) {
   res.render('detail',{
-    markt: data[req.params.id]
+    markt: data[req.params.id],
+    active: ""
   });
 });
 

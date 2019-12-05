@@ -2,9 +2,9 @@
 <footer>
   <div class="titel">
     <nav>
-      <a href="/lijst">LIJST</a>
-      <a href="/">MAP</a>
-      <a href="/contact">CONTACT</a>
+      <a <% if ( active == "lijst") { %> class="active" <% }%> href="/lijst">LIJST</a>
+      <a <% if ( active == "map") { %> class="active" <% }%> href="/">MAP</a>
+      <a <% if ( active == "contact") { %> class="active" <% }%> href="/contact">CONTACT</a>
     </nav>
   </div>
 </footer>

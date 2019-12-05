@@ -149,6 +149,9 @@ padding-top: 20px;
 box-sizing: border-box;
 border-radius: 5px 5px 0px 0px;
 }
+footer nav a.active{
+  color: black;
+}
 
 .titel{
     font-family: 'Quicksand', sans-serif;
