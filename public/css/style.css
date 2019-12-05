@@ -3,12 +3,12 @@
   height: 92vh;
 }
 
-/*.leaflet-top.leaflet-right {
+.leaflet-top.leaflet-right {
     top: auto;
     right: auto;
     left: 18px;
     bottom: 33px;
-}*/
+}
 
 .img{
   position: relative;
@@ -149,7 +149,7 @@ background-color: #e60005;
 height: 8vh;
 box-sizing: border-box;
 border-radius: 5px 5px 0px 0px;
-padding-top: 20Px;
+margin-top: 20Px;
 box-sizing: border-box;
 }
 footer nav a.active{
