@@ -10,6 +10,10 @@
     bottom: 33px;
 }
 
+string{
+  font-size: 18px;
+}
+
 .img{
   position: relative;
   top:20px;
