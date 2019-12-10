@@ -13,7 +13,6 @@ const path = require('path');
 
 //publieke map definiëren
 app.use(express.static('public'));
-app.use(express.static('img'));
 //ejs instellen als templating engine
 app.set('view engine', 'ejs');
 app.set('views', path.resolve(__dirname, 'views'));
